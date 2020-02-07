@@ -4,3 +4,16 @@
 * When you have that working, modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5
 * (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 */
+for (let numero=1; numero<101; numero++){
+  if( numero % 3 == 0){
+    if( numero % 5 == 0)
+      console.log("FizzBuzz")
+    else
+      console.log("Fizz")
+  } else {
+    if (numero % 5 == 0)
+      console.log("Buzz")
+    else
+      console.log(numero);
+  }
+}
